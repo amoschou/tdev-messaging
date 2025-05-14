@@ -1,0 +1,30 @@
+{
+    "name": "amoschou/tdev-messaging",
+    "description": "Laravel package for Telstra Messaging API v3.",
+    "homepage": "https://github.com/amoschou/tdev-messaging",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "amoschou",
+            "email": "4948673+amoschou@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": "^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AMoschou\\TDev\\Messaging\\": "src/",
+            "AMoschou\\TDev\\Messaging\\App\\": "src/app/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AMoschou\\RemoteAuth\\App\\Providers\\ServiceProvider"
+            ]
+        }
+    }
+}
