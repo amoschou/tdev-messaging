@@ -23,7 +23,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "AMoschou\\RemoteAuth\\App\\Providers\\ServiceProvider"
+                "AMoschou\\TDev\\Messaging\\App\\Providers\\ServiceProvider"
             ]
         }
     }
