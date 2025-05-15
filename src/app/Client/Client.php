@@ -1,6 +1,6 @@
 <?php
 
-namespace AMoschou\TDev\Messaging\Client;
+namespace AMoschou\TDev\Messaging\App\Client;
 
 class Client
 {
